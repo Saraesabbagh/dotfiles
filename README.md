@@ -5,7 +5,8 @@
 ````
 git clone "https://github.com/Saraesabbagh/dotfiles.git" ~/.dotfiles
 ````
-### Step 2- symlink the profile
+### Step 2- symbolic link the profile
+####To ensure that your .zprofile is used from your dotfiles repository, you can create a symbolic link from your home directory to the file in the repository
 
 ````
 ln -sf ~/.dotfiles/.zprofile ~/.zprofile
