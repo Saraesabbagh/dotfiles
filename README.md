@@ -1,7 +1,7 @@
 # dotfiles
 ## setup
 ````
-git clone repoURL ~/.dotfiles
+git clone "https://github.com/Saraesabbagh/dotfiles.git" ~/.dotfiles
 ln -sf ~/.dotfiles/zshprofile ~/.zshprofile
 cd ~/.dotfiles && brew bundle
 ````
