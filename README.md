@@ -15,10 +15,10 @@ ln -sf ~/.dotfiles/.zprofile ~/.zprofile
 On a new machine you might need to make the directory first
 
 ````
-mkdir -p "~/Library/Application Support/Code/User"
+mkdir -p "~/Library/Application Support/Code/User/"
 ````
 ````
-n -sf ~/.dotfiles/.vscode/settings.json "~/Library/Application Support/Code/User/settings.json"
+ln -sf ~/.dotfiles/.vscode/settings.json "~/Library/Application Support/Code/User/settings.json"
 ````
 ### Step 4- Run the Brewfile
 
