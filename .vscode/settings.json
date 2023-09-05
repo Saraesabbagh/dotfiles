@@ -1,0 +1,11 @@
+{
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[ruby]": {},
+  "html.format.wrapAttributesIndentSize": 2
+}
